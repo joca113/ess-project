@@ -42,3 +42,14 @@ E eu vejo uma mensagem pedindo para eu confirmar o recebimento do meu pedido
 E eu confirmo
 Então eu vejo uma mensagem de sucesso
 E eu sou redirecionado para a tela de pedidos
+
+Cenário 5: Avaliação de uma entrega corrigida
+Dado que eu já tenha recebido o meu pedido realizado pelo site.
+E eu entro no site logando como usuário comum.
+E eu vejo a opção “pedidos”
+Quando eu clico na aba pedidos
+E eu vejo um  pop up pedindo a avaliação do pedido baseado em um número de estrelas de 0 a 5
+E eu preencho as estrelas de acordo com a minha satisfação com o pedido
+Então eu vejo uma mensagem de “sucesso”
+E eu sou redirecionado novamente a loja para, caso queira, realizar novos pedidos.
+Então //correção//
