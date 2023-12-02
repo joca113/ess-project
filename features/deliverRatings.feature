@@ -61,6 +61,7 @@ E eu vejo aparecer na parte superior da minha tela uma notificação avisando qu
 Quando eu clico em cima da notificação
 E eu sou redirecionado para uma outra tela 
 Então eu posso ver, nesta tela, o quão próximo o produto está de mim através de uma linha que vai se preenchendo à medida que o produto se aproxima.
+Então /correção//
 
 Cenário 7: Notificação de que o pedido não foi enviado(2)
 Dado que eu tenha realizado um pedido pelo site
